@@ -1,4 +1,4 @@
-project('libstdcxx', language: ['c', 'cpp']. version: '13.2.0')
+project('libstdcxx', ['c', 'cpp'], version: '13.2.0')
 
 include_dirs = []
 
