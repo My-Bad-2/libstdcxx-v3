@@ -6,3 +6,12 @@ option(
     description: 'Kernel architecture to target',
     yield: true,
 )
+
+option(
+    'stdlib',
+    type: 'combo',
+    choices: ['libstdc++', 'libc++'],
+    value: 'libc++',
+    description: 'C++ standard library to use',
+    yield: true,
+)
